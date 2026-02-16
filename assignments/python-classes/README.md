@@ -2,32 +2,32 @@
 
 ## 🎯 Objective
 
-Learn how to define and use classes in Python to model real-world objects and behaviors.
+In this assignment, students learn how to create and use classes in Python to model real-world objects. They will define attributes, write instance methods, and update object state.
 
 ## 📝 Tasks
 
 ### 🛠️ Define a Simple Class
 
 #### Description
-Create a class named `Car` that represents a car with attributes for make, model, and year. Add a method to display information about the car.
+Create a class named `Car` with core attributes and a method that displays the object information.
 
 #### Requirements
 Completed program should:
 
 - Define a class `Car` with `make`, `model`, and `year` attributes
-- Include a method `display_info()` that prints the car's details
-- Create an instance of `Car` and call `display_info()`
+- Implement a method `display_info()` that prints the car details in a readable format
+- Create at least one `Car` instance and call `display_info()`
 
 
 ### 🛠️ Add Methods and Interactions
 
 #### Description
-Expand the `Car` class to include a method to update the car's mileage and another to display the current mileage.
+Expand the `Car` class by adding mileage tracking and methods to update and display mileage.
 
 #### Requirements
 Completed program should:
 
-- Add a `mileage` attribute to the `Car` class (default 0)
-- Add a method `update_mileage(new_mileage)` to update the mileage
-- Add a method `display_mileage()` to print the current mileage
+- Add a `mileage` attribute with a default value of `0`
+- Implement `update_mileage(new_mileage)` to update the stored mileage
+- Implement `display_mileage()` to print the current mileage
 - Demonstrate updating and displaying mileage for a `Car` instance

@@ -3,52 +3,43 @@
 
 ## 🎯 Objective
 
-Practice fundamental Python programming skills including user input, string formatting, arithmetic operations, and conditional statements by implementing simple functions.
+In this assignment, students practice core Python fundamentals through small, focused coding tasks. They will use input handling, string formatting, arithmetic, and conditionals to build confidence with basic program flow.
 
 ## 📝 Tasks
 
 ### 🛠️ User Input and String Formatting
 
 #### Description
-Write a function called `welcome_message()` that interacts with the user and returns a formatted welcome message.
+Write a function named `welcome_message()` that collects user information and returns a correctly formatted greeting.
 
 #### Requirements
 Completed program should:
 
-- Ask the user for their name, age, and favorite color using `input()`.
-- Return a welcome message formatted as:
-  `Hello, [name]! You are [age] years old and your favorite color is [color].`
-- Example output:
-  `Hello, Alice! You are 25 years old and your favorite color is blue.`
+- Ask the user for name, age, and favorite color using `input()`
+- Return a message in this format: `Hello, [name]! You are [age] years old and your favorite color is [color].`
+- Produce a correctly formatted output for at least one sample input
 
 ### 🛠️ Basic Arithmetic
 
 #### Description
-Write a function called `add_two_numbers()` that prompts the user for two numbers and prints their sum.
+Write a function named `add_two_numbers()` that reads two numbers from the user and prints the sum.
 
 #### Requirements
 Completed program should:
 
-- Ask the user to enter two numbers.
-- Add the numbers together.
-- Print the result. Example:
-  Enter the first number: 3
-  Enter the second number: 7
-  10
+- Prompt the user to enter two numbers
+- Convert the inputs to numeric values before adding
+- Print the resulting sum
 
 ### 🛠️ Conditional Statements
 
 #### Description
-Write a function called `is_even()` that checks if a number is even.
+Write a function named `is_even()` that determines whether an integer is even.
 
 #### Requirements
 Completed program should:
 
-- Take a single integer argument.
-- Return `True` if the number is even, and `False` if it is odd.
-- Example usage:
-  ```python
-  print(is_even(4))  # True
-  print(is_even(5))  # False
-  ```
+- Accept one integer argument
+- Return `True` for even numbers and `False` for odd numbers
+- Include at least two sample calls showing one even and one odd input
 
