@@ -2,7 +2,7 @@
   "course": {
     "title": "Computer Science",
     "school": "Mergington High School",
-    "description": "Introduction to programming and computer science"
+    "description": "Introduction to programming and computer science. New this week: Building REST APIs with FastAPI."
   },
   "assignments": [
     {
@@ -56,6 +56,20 @@
           "name": "Sample Dataset",
           "file": "data.csv",
           "type": "csv"
+        }
+      ]
+    },
+    {
+      "id": "fastapi-rest-apis",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Create and test a simple REST API with FastAPI endpoints, validation, and JSON responses.",
+      "path": "assignments/fastapi-rest-apis",
+      "dueDate": "2026-02-23",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
         }
       ]
     }
